@@ -17,6 +17,4 @@ def classify_image():
 
     return response
 
-if __name__ == "__main__":
-    util.load_saved_artifacts()
-    app.run()
+
