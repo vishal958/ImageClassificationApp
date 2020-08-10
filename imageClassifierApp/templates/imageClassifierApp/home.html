@@ -12,14 +12,18 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-light bg-light justify-content-center">
-            <a class="navbar-brand" href="#">Image Classifier App</a>
-            <a class="navbar-brand" href="https://github.com/vishal958/ImageClassificationApp" target="_blank" id="github">Github <img class="w-100 h-100" src="{% static 'imageClassifierApp/images/github.png '%}" alt="Card image cap"></a>
-            <a class="navbar-brand" id ="feel" href="#">Please feel free to contribute to this project</a>
-        </nav>
-
+        
+        <nav class="navbar navbar-light bg-light">
         <div class="container">
-            <div class="row">
+            <a class="navbar-brand nav-left" href="#">Image Classifier App</a>
+            <div class="right-nav">
+            <a class="navbar-brand" href="https://github.com/vishal958/ImageClassificationApp" target="_blank" id="github">Github <img class="w-100 h-100 github-logo" src="{% static 'imageClassifierApp/images/github.png '%}" alt="Card image cap"></a>
+            <a class="navbar-brand" id ="feel" href="#">Please feel free to contribute to this project. <br><span id="help">Thanks to Apurv</span> </a>
+            </div>
+        </div>
+        </nav>
+        <div class="container content">
+            <div class="row images">
                 <div class="col card-wrapper" data-player="lionel_messi">
                     <div class="card border-0">
                         <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
