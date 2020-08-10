@@ -81,7 +81,7 @@
 
 @media (min-width:567px){
   .col-sm-4{
-    max-width:33.33%;
+    max-width:33.33%
   }
 }
 @media only screen and (max-width:768px){
@@ -115,4 +115,7 @@ a.navbar-brand.nav-left {
 }
 span#help {
   font-family: cursive;
+}
+.result{
+	display:flex;
 }
