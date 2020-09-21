@@ -1,10 +1,62 @@
-# ImageClassificationApp
-## You can visit this app at https://imageclassifierapp.herokuapp.com. Sometimes add will popup, because it is hosted freely. So please bare with this.
-This is the simple image classifier app where you can input image and get the results along with probability score.
+# ImageClassification App: 
+
+## Table of Content
+  * [Demo](#demo)
+  * [Overview](#overview)
+  * [Installation](#installation)
+  * [Deployement on Heroku](#deployement-on-heroku)
+  * [Directory Tree](#directory-tree)
+  * [Bug / Feature Request](#bug---feature-request)
+  * [Future scope of project](#future-scope)
 
 
-# Steps to run this app.
-### 1. Clone repo
-### 2. In the root folder of the project run `<addr>' pip install -r requirements.txt.
-### 3. After that run command python manage.py migrate.
-### 4. Next, python manage.py runserver <your host_name>
+## Demo
+Link: [https://imageclassifier.herokuapp.com/](https://imageclassifier.herokuapp.com/)
+
+## Overview
+This is a ImageClassifier web app made in Django Framework.
+
+## Installation
+The Code is written in Python 3.6.10. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
+```bash
+pip install -r requirements.txt
+```
+
+## Deployement on Heroku
+Login or signup in order to create virtual app. You can either connect your github profile or download ctl to manually deploy this project.
+
+[![](https://i.imgur.com/dKmlpqX.png)](https://heroku.com)
+
+Our next step would be to follow the instruction given on [Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python) to deploy a web app.
+
+## Directory Tree 
+```
+|── sentiAnalyzer
+|   |── __init__py
+|   |── asgi.py
+|   |── settings.py
+|   |── urls.py
+|   |── wsgi.py
+|── sentiAnalyzerApp
+├── template
+│   ├── home.html
+├── Procfile
+├── README.md
+├── manage.py
+├── requirements.txt
+|── runtime.txt
+```
+
+## Technologies Used
+
+    Django, Sklearn, Support vector Classifier, OpenCv
+
+
+## Bug / Feature Request
+
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an [issue](https://github.com/vishal958/ImageClassificationApp/issues) here by including your search query and the expected result
+
+## Future Scope
+
+* Use multiple Algorithms
+* Front-End 
