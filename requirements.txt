@@ -49,7 +49,7 @@ psycopg2==2.8.5
 pycodestyle==2.5.0
 pycryptodome==3.9.8
 Pygments==2.6.1
-PyJWT==1.7.1
+PyJWT==2.4.0
 pylint==2.5.0
 pyparsing==2.4.7
 python-dateutil==2.8.1
